@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 void sortarray012(int arr[], int n)
 {
     int cnt0 = 0;
