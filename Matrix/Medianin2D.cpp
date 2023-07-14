@@ -19,9 +19,9 @@ int Findmedian(int arr[3][3], int row, int col)
 int main()
 {
     int row = 3, col = 3;
-    int arr[3][3] = {{1, 3, 8},
-                     {2, 3, 4},
-                     {1, 2, 5}};
+    int arr[3][3] = {{1, 3, 5},
+                     {2, 6, 9},
+                     {3, 6, 9}};
     cout << "The median of the row-wise sorted matrix is: " << Findmedian(arr, row, col) << endl;
     return 0;
 }
