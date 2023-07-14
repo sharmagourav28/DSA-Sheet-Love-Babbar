@@ -13,13 +13,14 @@ int sqrtint(int x)
     while (cnt <= x)
     {
         i++;
+        cout << i << endl;
         cnt = i * i;
     }
     return i - 1;
 }
 int main()
 {
-    int x = 11;
+    int x = 4;
     cout << "Square Root of " << x << " is " << sqrtint(x) << endl;
     return 0;
 }
