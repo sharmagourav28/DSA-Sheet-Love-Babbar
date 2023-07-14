@@ -26,7 +26,7 @@ void firstandlast(int arr[], int n, int x)
 }
 int main()
 {
-    int arr[] = {1, 3, 5, 5, 5, 567, 5, 5, 5, 123, 143};
+    int arr[] = {1, 3, 5, 5, 5, 5, 5, 5, 5, 123, 143};
     int n = sizeof(arr) / sizeof(arr[0]);
     int x = 5;
     firstandlast(arr, n, x);
